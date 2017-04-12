@@ -1,0 +1,21 @@
+{
+  "name": "alashow/belongs-to-many-through",
+  "description": "Laravel Relationship extension",
+  "type": "library",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Alashov Berkeli",
+      "email": "yunus.alashow@gmail.com"
+    }
+  ],
+  "require": {
+    "php": ">=5.4.0",
+    "illuminate/database": "^5.4"
+  },
+  "autoload": {
+    "psr-4": {
+      "Alashow\\BelongsToManyThrough\\": "src/"
+    }
+  }
+}
